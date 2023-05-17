@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #45717B;
+}
+
+h1 {
+  color: #1B4682;
+  font-style: italic;
+}
+
+button {
+  background-color: crimson;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-image: linear-gradient(to right bottom, #2a98e7, #3b97ea, #4a97ec, #5796ee, #6395ef, #6598f0, #679af0, #699df1, #66a4f0, #65aaef, #67b0ed, #6cb5ea);
+  color: #222;
+}
+.reset:hover {
+  background-color: #222;
+  color: #fff;
+}
+.reset {
+  color: #222; 
+  text-decoration: 
+  none; margin-top: 20px; 
+  font-size: 12px; 
+  text-align: center; ; 
+  border-radius: 8px; 
+  width: 50px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  padding: 2px;
+}
+
+.wrapper {
+  background-image: linear-gradient(to right bottom, #4d97e1, #619be1, #719fe1, #7fa3e1, #8ba7e1, #84a9df, #7fabdc, #7bacd8, #67aacd, #58a7bf, #51a4b0, #519f9f);
+  border-radius: 16px;
+  max-width: 90%;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 40px;
+}
+
+.data-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.data-container p {
+  margin: 10px;
+}
+
+.result,
+.score {
+  font-size: 12px;
+  color: #1B5782;
+}
+
+.reset:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.reset {
+  color: #222;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 8px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+
+
